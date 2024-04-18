@@ -1,5 +1,5 @@
 # Use rocker/rstudio as base image
-# Note: rocker/tidyverse etc. are not yet available for arm64
+# Note: rocker/tidyverse etc. are not (yet) available for arm64
 FROM rocker/rstudio
 
 # Install system dependencies for tidyverse

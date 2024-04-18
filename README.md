@@ -25,3 +25,5 @@ Dockerfile for building a computational environment for statistical analysis wit
     ```
 
     Sign in to RStudio Server in a web broswer at <http://localhost:8787> by entering username (`rstudio`) and password (randomly supplied).
+
+5. Stop Docker container once done using it. Check container ID with `docker ps` and run `docker stop CONTAINER-ID`. Alternatively, Ctrl+C in the working terminal.
