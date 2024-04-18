@@ -16,7 +16,7 @@ Dockerfile for building a computational environment for statistical analysis wit
     docker build -t r-tidystan .
     ```
 
-    where `.` is the path to the directory containing the Dockerfile.
+    where `.` is the path to the directory containing the Dockerfile. This might take 10-20 minutes depending on the platform, system, etc.
 
 4. Run Docker container:
 
